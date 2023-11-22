@@ -79,3 +79,6 @@ services:
       - ./musicn:/data
  ``` 
   
+sudo kubectl port-forward --address 0.0.0.0 -n default service/musicn-container 7478:7478 &
+
+<img width="1384" alt="image" src="https://github.com/gmicroul/musicn-container/assets/121873438/ac7461ba-eb96-4867-91fa-a593cb8a2f5b">
